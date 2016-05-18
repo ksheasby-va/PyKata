@@ -27,3 +27,10 @@ def parse_digit(character):
         return 50
     else:
         raise NotImplementedError()
+
+def add(numeral1, numeral2):
+    x = parse_numeral(numeral1)
+    y = parse_numeral(numeral2)
+    total = x + y
+
+    return total
