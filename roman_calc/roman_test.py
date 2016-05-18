@@ -1,6 +1,6 @@
 import unittest
 
-from roman import parse_numeral, add
+from roman import parse_numeral, add, reconstruct_numeral
 
 
 class RomanNumeralParserTest(unittest.TestCase):
@@ -37,3 +37,15 @@ class RomanNumeralParserTest(unittest.TestCase):
 
     def test_IV_plus_V_returns_9(self):
         self.assertEqual(9, add('IV', 'V'))
+
+    def test_I_plus_I_returns_II(self):
+        self.assertEqual('II', reconstruct_numeral('I', 'I'))
+
+    def test_I_plus_V_returns_VI(self):
+        self.assertEqual('VI', reconstruct_numeral('I', 'V'))
+
+    def test_II_plus_V_returns_VII(self):
+        self.assertEqual('VII', reconstruct_numeral('II', 'V'))
+
+    def test_VII_plus_V_returns_XII(self):
+        self.assertEqual('XII', reconstruct_numeral('VII', 'V'))

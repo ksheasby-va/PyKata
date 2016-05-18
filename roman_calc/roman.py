@@ -1,7 +1,6 @@
 def parse_numeral(numeral):
     digits = [parse_digit(digit) for digit in numeral]
     total = 0
-    i = 0
     for i in range(0, len(digits) - 1):
         current_digit = digits[i]
         next_digit = digits[i + 1]
@@ -34,3 +33,17 @@ def add(numeral1, numeral2):
     total = x + y
 
     return total
+
+def reconstruct_numeral(numeral1, numeral2):
+    number = add(numeral1, numeral2)
+    L_count = number / 50
+    X_count = (number - (L_count * 50)) / 10
+    V_count = (number - (X_count * 10) - (L_count * 50)) / 5
+    I_count = (number - (V_count * 5) - (X_count * 10) - (L_count * 50)) / 1
+
+    numeral = 'L' * L_count
+    numeral += 'X' * X_count
+    numeral += 'V' * V_count
+    numeral += 'I' * I_count
+
+    return numeral
