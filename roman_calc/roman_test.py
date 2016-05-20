@@ -49,3 +49,12 @@ class RomanNumeralParserTest(unittest.TestCase):
 
     def test_VII_plus_V_returns_XII(self):
         self.assertEqual('XII', reconstruct_numeral('VII', 'V'))
+
+    def test_II_plus_II_returns_IV(self):
+        self.assertEqual('IV', reconstruct_numeral('II', 'II'))
+
+    def test_IV_plus_V_returns_IX(self):
+        self.assertEqual('IX', reconstruct_numeral('IV', 'V'))
+
+    def test_XXV_plus_XXIV_returns_XLIX(self):
+        self.assertEqual('XLIX', reconstruct_numeral('XXV', 'XXIV'))

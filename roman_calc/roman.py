@@ -27,12 +27,14 @@ def parse_digit(character):
     else:
         raise NotImplementedError()
 
+
 def add(numeral1, numeral2):
     x = parse_numeral(numeral1)
     y = parse_numeral(numeral2)
     total = x + y
 
     return total
+
 
 def reconstruct_numeral(numeral1, numeral2):
     number = add(numeral1, numeral2)
@@ -42,8 +44,18 @@ def reconstruct_numeral(numeral1, numeral2):
     I_count = (number - (V_count * 5) - (X_count * 10) - (L_count * 50)) / 1
 
     numeral = 'L' * L_count
+    if number % 50 >= 40:
+        numeral += 'XL'
+        X_count = 0
     numeral += 'X' * X_count
+    if number % 10 == 9:
+        numeral += 'IX'
+        V_count = 0
+        I_count = 0
     numeral += 'V' * V_count
-    numeral += 'I' * I_count
+    if I_count == 4:
+        numeral += 'IV'
+    else:
+        numeral += 'I' * I_count
 
     return numeral
