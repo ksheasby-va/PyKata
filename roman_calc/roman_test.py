@@ -14,6 +14,18 @@ class RomanNumeralParserTest(unittest.TestCase):
     def test_X_parses_as_ten(self):
         self.assertEqual(10, parse_numeral('X'))
 
+    def test_L_parses_as_fifty(self):
+        self.assertEqual(50, parse_numeral('L'))
+
+    def test_C_parses_as_one_hundred(self):
+        self.assertEqual(100, parse_numeral('C'))
+
+    def test_D_parses_as_five_hundred(self):
+        self.assertEqual(500, parse_numeral('D'))
+
+    def test_M_parses_as_one_thousand(self):
+        self.assertEqual(1000, parse_numeral('M'))
+
     def test_II_parses_as_two(self):
         self.assertEqual(2, parse_numeral('II'))
 
@@ -58,3 +70,15 @@ class RomanNumeralParserTest(unittest.TestCase):
 
     def test_XXV_plus_XXIV_returns_XLIX(self):
         self.assertEqual('XLIX', reconstruct_numeral('XXV', 'XXIV'))
+
+    def test_LXXXIV_plus_XXXVII_returns_CXXI(self):
+        self.assertEqual('CXXI', reconstruct_numeral('LXXXIV', 'XXXVII'))
+
+    def test_CCIV_plus_CCXXII_returns_CDXXVI(self):
+        self.assertEqual('CDXXVI', reconstruct_numeral('CCIV', 'CCXXII'))
+
+    def test_DCCCLIV_plus_CL_returns_MIV(self):
+        self.assertEqual('MIV', reconstruct_numeral('DCCCLIV', 'CL'))
+
+    def test_DCCCLX_plus_C_returns_CMLX(self):
+        self.assertEqual('CMLX', reconstruct_numeral('DCCCLX', 'C'))

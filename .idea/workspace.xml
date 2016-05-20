@@ -19,17 +19,22 @@
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/PyKata$Unittest_RomanNumeralParserTest_test_II_plus_V_returns_VII.coverage" NAME="Unittest RomanNumeralParserTest.test_II_plus_V_returns_VII Coverage Results" MODIFIED="1463597342812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/roman_calc" />
-    <SUITE FILE_PATH="coverage/PyKata$Unittests_in_RomanNumeralParserTest.coverage" NAME="Unittests in RomanNumeralParserTest Coverage Results" MODIFIED="1463771420522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/roman_calc" />
-    <SUITE FILE_PATH="coverage/PyKata$Unittest_RomanNumeralParserTest_test_I_plus_I_returns_2.coverage" NAME="Unittest RomanNumeralParserTest.test_I_plus_I_returns_2 Coverage Results" MODIFIED="1463592695167" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/roman_calc" />
+    <SUITE FILE_PATH="coverage/PyKata$Unittests_in_RomanNumeralParserTest.coverage" NAME="Unittests in RomanNumeralParserTest Coverage Results" MODIFIED="1463777062218" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/roman_calc" />
+    <SUITE FILE_PATH="coverage/PyKata$Unittest_RomanNumeralParserTest_test_DCCCLX_plus_C_returns_CMLX.coverage" NAME="Unittest RomanNumeralParserTest.test_DCCCLX_plus_C_returns_CMLX Coverage Results" MODIFIED="1463776782322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/roman_calc" />
+    <SUITE FILE_PATH="coverage/PyKata$Unittest_RomanNumeralParserTest_test_LXXXIV_plus_XXXVII_returns_CXXI.coverage" NAME="Unittest RomanNumeralParserTest.test_LXXXIV_plus_XXXVII_returns_CXXI Coverage Results" MODIFIED="1463774799956" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/roman_calc" />
     <SUITE FILE_PATH="coverage/PyKata$Unittest_RomanNumeralParserTest_test_I_plus_II_returns_3.coverage" NAME="Unittest RomanNumeralParserTest.test_I_plus_II_returns_3 Coverage Results" MODIFIED="1463592864608" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/roman_calc" />
     <SUITE FILE_PATH="coverage/PyKata$Unittest_RomanNumeralParserTest_test_IV_plus_V_returns_9.coverage" NAME="Unittest RomanNumeralParserTest.test_IV_plus_V_returns_9 Coverage Results" MODIFIED="1463594854936" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/roman_calc" />
     <SUITE FILE_PATH="coverage/PyKata$Unittest_RomanNumeralParserTest_test_II_plus_II_returns_IV.coverage" NAME="Unittest RomanNumeralParserTest.test_II_plus_II_returns_IV Coverage Results" MODIFIED="1463771404964" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/roman_calc" />
     <SUITE FILE_PATH="coverage/PyKata$Unittest_RomanNumeralParserTest_test_I_plus_I_returns_II.coverage" NAME="Unittest RomanNumeralParserTest.test_I_plus_I_returns_II Coverage Results" MODIFIED="1463595029091" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/roman_calc" />
-    <SUITE FILE_PATH="coverage/PyKata$Unittest_RomanNumeralParserTest_test_XXV_plus_XXIV_returns_XLIX.coverage" NAME="Unittest RomanNumeralParserTest.test_XXV_plus_XXIV_returns_XLIX Coverage Results" MODIFIED="1463772444951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/roman_calc" />
     <SUITE FILE_PATH="coverage/PyKata$Unittest_RomanNumeralParserTest_test_IV_plus_V_returns_IX.coverage" NAME="Unittest RomanNumeralParserTest.test_IV_plus_V_returns_IX Coverage Results" MODIFIED="1463771649516" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/roman_calc" />
-    <SUITE FILE_PATH="coverage/PyKata$Unittest_RomanNumeralParserTest_test_VII_plus_V_returns_XII.coverage" NAME="Unittest RomanNumeralParserTest.test_VII_plus_V_returns_XII Coverage Results" MODIFIED="1463771256737" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/roman_calc" />
     <SUITE FILE_PATH="coverage/PyKata$Unittest_RomanNumeralParserTest_test_I_plus_V_returns_VI.coverage" NAME="Unittest RomanNumeralParserTest.test_I_plus_V_returns_VI Coverage Results" MODIFIED="1463595713519" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/roman_calc" />
     <SUITE FILE_PATH="coverage/PyKata$Unittest_RomanNumeralParserTest_test_XXV_plus_XIV_returns_XLIX.coverage" NAME="Unittest RomanNumeralParserTest.test_XXV_plus_XIV_returns_XLIX Coverage Results" MODIFIED="1463772398097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/roman_calc" />
+    <SUITE FILE_PATH="coverage/PyKata$Unittest_RomanNumeralParserTest_test_DCCCLIV_plus_CL_returns_MIV.coverage" NAME="Unittest RomanNumeralParserTest.test_DCCCLIV_plus_CL_returns_MIV Coverage Results" MODIFIED="1463776467865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/roman_calc" />
+    <SUITE FILE_PATH="coverage/PyKata$Unittest_RomanNumeralParserTest_test_I_plus_I_returns_2.coverage" NAME="Unittest RomanNumeralParserTest.test_I_plus_I_returns_2 Coverage Results" MODIFIED="1463592695167" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/roman_calc" />
+    <SUITE FILE_PATH="coverage/PyKata$Unittest_RomanNumeralParserTest_test_L_parses_as_fifty.coverage" NAME="Unittest RomanNumeralParserTest.test_L_parses_as_fifty Coverage Results" MODIFIED="1463776041608" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/roman_calc" />
+    <SUITE FILE_PATH="coverage/PyKata$Unittest_RomanNumeralParserTest_test_XXV_plus_XXIV_returns_XLIX.coverage" NAME="Unittest RomanNumeralParserTest.test_XXV_plus_XXIV_returns_XLIX Coverage Results" MODIFIED="1463772444951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/roman_calc" />
+    <SUITE FILE_PATH="coverage/PyKata$Unittest_RomanNumeralParserTest_test_VII_plus_V_returns_XII.coverage" NAME="Unittest RomanNumeralParserTest.test_VII_plus_V_returns_XII Coverage Results" MODIFIED="1463771256737" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/roman_calc" />
+    <SUITE FILE_PATH="coverage/PyKata$Unittest_RomanNumeralParserTest_test_CCIV_plus_CCXXII_returns_CDXXVI.coverage" NAME="Unittest RomanNumeralParserTest.test_CCIV_plus_CCXXII_returns_CDXXVI Coverage Results" MODIFIED="1463776976403" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/roman_calc" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -43,8 +48,8 @@
       <file leaf-file-name="roman.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/roman_calc/roman.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="46" column="7" selection-start-line="46" selection-start-column="7" selection-end-line="46" selection-end-column="7" />
+            <state relative-caret-position="224">
+              <caret line="55" column="28" selection-start-line="55" selection-start-column="28" selection-end-line="55" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -53,8 +58,8 @@
       <file leaf-file-name="roman_test.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/roman_calc/roman_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="58" column="16" selection-start-line="58" selection-start-column="16" selection-end-line="58" selection-end-column="16" />
+            <state relative-caret-position="228">
+              <caret line="76" column="18" selection-start-line="76" selection-start-column="18" selection-end-line="76" selection-end-column="18" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -153,7 +158,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
   </component>
-  <component name="RunManager" selected="Python tests.Unittest RomanNumeralParserTest.test_XXV_plus_XXIV_returns_XLIX">
+  <component name="RunManager" selected="Python tests.Unittests in RomanNumeralParserTest">
     <configuration default="false" name="Unittests in RomanNumeralParserTest" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -177,7 +182,7 @@
       <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="Unittest RomanNumeralParserTest.test_II_plus_II_returns_IV" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Unittest RomanNumeralParserTest.test_CCIV_plus_CCXXII_returns_CDXXVI" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -190,7 +195,7 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/roman_calc/roman_test.py" />
       <option name="CLASS_NAME" value="RomanNumeralParserTest" />
-      <option name="METHOD_NAME" value="test_II_plus_II_returns_IV" />
+      <option name="METHOD_NAME" value="test_CCIV_plus_CCXXII_returns_CDXXVI" />
       <option name="FOLDER_NAME" value="" />
       <option name="TEST_TYPE" value="TEST_METHOD" />
       <option name="PATTERN" value="" />
@@ -200,7 +205,7 @@
       <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="Unittest RomanNumeralParserTest.test_IV_plus_V_returns_IX" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Unittest RomanNumeralParserTest.test_L_parses_as_fifty" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -213,7 +218,7 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/roman_calc/roman_test.py" />
       <option name="CLASS_NAME" value="RomanNumeralParserTest" />
-      <option name="METHOD_NAME" value="test_IV_plus_V_returns_IX" />
+      <option name="METHOD_NAME" value="test_L_parses_as_fifty" />
       <option name="FOLDER_NAME" value="" />
       <option name="TEST_TYPE" value="TEST_METHOD" />
       <option name="PATTERN" value="" />
@@ -223,7 +228,7 @@
       <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="Unittest RomanNumeralParserTest.test_XXV_plus_XIV_returns_XLIX" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Unittest RomanNumeralParserTest.test_DCCCLIV_plus_CL_returns_MIV" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -236,7 +241,7 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/roman_calc/roman_test.py" />
       <option name="CLASS_NAME" value="RomanNumeralParserTest" />
-      <option name="METHOD_NAME" value="test_XXV_plus_XIV_returns_XLIX" />
+      <option name="METHOD_NAME" value="test_DCCCLIV_plus_CL_returns_MIV" />
       <option name="FOLDER_NAME" value="" />
       <option name="TEST_TYPE" value="TEST_METHOD" />
       <option name="PATTERN" value="" />
@@ -246,7 +251,7 @@
       <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="Unittest RomanNumeralParserTest.test_XXV_plus_XXIV_returns_XLIX" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Unittest RomanNumeralParserTest.test_DCCCLX_plus_C_returns_CMLX" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -259,7 +264,7 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/roman_calc/roman_test.py" />
       <option name="CLASS_NAME" value="RomanNumeralParserTest" />
-      <option name="METHOD_NAME" value="test_XXV_plus_XXIV_returns_XLIX" />
+      <option name="METHOD_NAME" value="test_DCCCLX_plus_C_returns_CMLX" />
       <option name="FOLDER_NAME" value="" />
       <option name="TEST_TYPE" value="TEST_METHOD" />
       <option name="PATTERN" value="" />
@@ -479,18 +484,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in RomanNumeralParserTest" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest RomanNumeralParserTest.test_II_plus_II_returns_IV" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest RomanNumeralParserTest.test_IV_plus_V_returns_IX" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest RomanNumeralParserTest.test_XXV_plus_XIV_returns_XLIX" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittest RomanNumeralParserTest.test_XXV_plus_XXIV_returns_XLIX" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest RomanNumeralParserTest.test_CCIV_plus_CCXXII_returns_CDXXVI" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest RomanNumeralParserTest.test_L_parses_as_fifty" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest RomanNumeralParserTest.test_DCCCLIV_plus_CL_returns_MIV" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittest RomanNumeralParserTest.test_DCCCLX_plus_C_returns_CMLX" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittest RomanNumeralParserTest.test_XXV_plus_XXIV_returns_XLIX" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest RomanNumeralParserTest.test_XXV_plus_XIV_returns_XLIX" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest RomanNumeralParserTest.test_IV_plus_V_returns_IX" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in RomanNumeralParserTest" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittest RomanNumeralParserTest.test_II_plus_II_returns_IV" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in RomanNumeralParserTest" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest RomanNumeralParserTest.test_CCIV_plus_CCXXII_returns_CDXXVI" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest RomanNumeralParserTest.test_DCCCLX_plus_C_returns_CMLX" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest RomanNumeralParserTest.test_DCCCLIV_plus_CL_returns_MIV" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittest RomanNumeralParserTest.test_L_parses_as_fifty" />
       </list>
     </recent_temporary>
   </component>
@@ -526,38 +531,45 @@
       <option name="project" value="LOCAL" />
       <updated>1463598494473</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Reverse-order numerals implemented.">
+      <created>1463772541957</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1463772541958</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittest_RomanNumeralParserTest_test_II_plus_II_returns_IV - 2016.05.20 at 13h 10m 05s.xml">
-      <configuration name="Unittest RomanNumeralParserTest.test_II_plus_II_returns_IV" configurationId="tests" />
+    <history-entry file="Unittest_RomanNumeralParserTest_test_CCIV_plus_CCXXII_returns_CDXXVI - 2016.05.20 at 14h 40m 22s.xml">
+      <configuration name="Unittest RomanNumeralParserTest.test_CCIV_plus_CCXXII_returns_CDXXVI" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_RomanNumeralParserTest_test_IV_plus_V_returns_IX - 2016.05.20 at 13h 11m 39s.xml">
-      <configuration name="Unittest RomanNumeralParserTest.test_IV_plus_V_returns_IX" configurationId="tests" />
+    <history-entry file="Unittest_RomanNumeralParserTest_test_CCIV_plus_CCXXII_returns_CDXXVI - 2016.05.20 at 14h 42m 56s.xml">
+      <configuration name="Unittest RomanNumeralParserTest.test_CCIV_plus_CCXXII_returns_CDXXVI" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_RomanNumeralParserTest_test_IV_plus_V_returns_IX - 2016.05.20 at 13h 13m 51s.xml">
-      <configuration name="Unittest RomanNumeralParserTest.test_IV_plus_V_returns_IX" configurationId="tests" />
+    <history-entry file="Unittest_RomanNumeralParserTest_test_DCCCLIV_plus_CL_returns_MIV - 2016.05.20 at 14h 33m 01s.xml">
+      <configuration name="Unittest RomanNumeralParserTest.test_DCCCLIV_plus_CL_returns_MIV" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_RomanNumeralParserTest_test_IV_plus_V_returns_IX - 2016.05.20 at 13h 14m 09s.xml">
-      <configuration name="Unittest RomanNumeralParserTest.test_IV_plus_V_returns_IX" configurationId="tests" />
+    <history-entry file="Unittest_RomanNumeralParserTest_test_DCCCLIV_plus_CL_returns_MIV - 2016.05.20 at 14h 34m 27s.xml">
+      <configuration name="Unittest RomanNumeralParserTest.test_DCCCLIV_plus_CL_returns_MIV" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_RomanNumeralParserTest_test_XXV_plus_XIV_returns_XLIX - 2016.05.20 at 13h 16m 20s.xml">
-      <configuration name="Unittest RomanNumeralParserTest.test_XXV_plus_XIV_returns_XLIX" configurationId="tests" />
+    <history-entry file="Unittest_RomanNumeralParserTest_test_DCCCLX_plus_C_returns_CMLX - 2016.05.20 at 14h 37m 10s.xml">
+      <configuration name="Unittest RomanNumeralParserTest.test_DCCCLX_plus_C_returns_CMLX" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_RomanNumeralParserTest_test_XXV_plus_XIV_returns_XLIX - 2016.05.20 at 13h 21m 17s.xml">
-      <configuration name="Unittest RomanNumeralParserTest.test_XXV_plus_XIV_returns_XLIX" configurationId="tests" />
+    <history-entry file="Unittest_RomanNumeralParserTest_test_DCCCLX_plus_C_returns_CMLX - 2016.05.20 at 14h 39m 01s.xml">
+      <configuration name="Unittest RomanNumeralParserTest.test_DCCCLX_plus_C_returns_CMLX" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_RomanNumeralParserTest_test_XXV_plus_XIV_returns_XLIX - 2016.05.20 at 13h 26m 38s.xml">
-      <configuration name="Unittest RomanNumeralParserTest.test_XXV_plus_XIV_returns_XLIX" configurationId="tests" />
+    <history-entry file="Unittest_RomanNumeralParserTest_test_DCCCLX_plus_C_returns_CMLX - 2016.05.20 at 14h 39m 42s.xml">
+      <configuration name="Unittest RomanNumeralParserTest.test_DCCCLX_plus_C_returns_CMLX" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_RomanNumeralParserTest_test_XXV_plus_XXIV_returns_XLIX - 2016.05.20 at 13h 27m 08s.xml">
-      <configuration name="Unittest RomanNumeralParserTest.test_XXV_plus_XXIV_returns_XLIX" configurationId="tests" />
+    <history-entry file="Unittests_in_RomanNumeralParserTest - 2016.05.20 at 14h 39m 58s.xml">
+      <configuration name="Unittests in RomanNumeralParserTest" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_RomanNumeralParserTest_test_XXV_plus_XXIV_returns_XLIX - 2016.05.20 at 13h 27m 25s.xml">
-      <configuration name="Unittest RomanNumeralParserTest.test_XXV_plus_XXIV_returns_XLIX" configurationId="tests" />
+    <history-entry file="Unittests_in_RomanNumeralParserTest - 2016.05.20 at 14h 43m 04s.xml">
+      <configuration name="Unittests in RomanNumeralParserTest" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_RomanNumeralParserTest - 2016.05.20 at 13h 10m 20s.xml">
+    <history-entry file="Unittests_in_RomanNumeralParserTest - 2016.05.20 at 14h 44m 22s.xml">
       <configuration name="Unittests in RomanNumeralParserTest" configurationId="tests" />
     </history-entry>
   </component>
@@ -571,7 +583,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32871014" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32871014" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -591,7 +603,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added addition functionality, outputs to int, not numeral." />
     <MESSAGE value="Returns numbers as numerals, but no reverse-order numbers implemented (eg IV)." />
-    <option name="LAST_COMMIT_MESSAGE" value="Returns numbers as numerals, but no reverse-order numbers implemented (eg IV)." />
+    <MESSAGE value="Reverse-order numerals implemented." />
+    <option name="LAST_COMMIT_MESSAGE" value="Reverse-order numerals implemented." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -602,8 +615,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/roman_calc/roman_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="58" column="16" selection-start-line="58" selection-start-column="16" selection-end-line="58" selection-end-column="16" />
+        <state relative-caret-position="228">
+          <caret line="76" column="18" selection-start-line="76" selection-start-column="18" selection-end-line="76" selection-end-column="18" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
@@ -612,8 +625,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/roman_calc/roman.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="46" column="7" selection-start-line="46" selection-start-column="7" selection-end-line="46" selection-end-column="7" />
+        <state relative-caret-position="224">
+          <caret line="55" column="28" selection-start-line="55" selection-start-column="28" selection-end-line="55" selection-end-column="28" />
           <folding />
         </state>
       </provider>
