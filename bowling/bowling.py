@@ -21,3 +21,25 @@ def calc_score(throws):
         total += x
 
     return total
+
+def split_throws_into_frames(throws):
+
+    frames = []
+    frame = []
+    balls = 0
+    total = 0
+    for x in throws:
+        if total < 15:
+            frame.append(x)
+            total += x
+            balls += 1
+        else:
+            frame.append(x)
+
+        if total == 15 or balls == 3:
+            frames.append(frame)
+            balls = 0
+            frame = []
+            total = 0
+
+    return frames
