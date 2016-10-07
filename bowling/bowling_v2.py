@@ -28,3 +28,5 @@ def calc_score(throws):
         frames.append(total)
 
         return sum(frames)
+
+# Try carryover as a fifo queue.
