@@ -34,3 +34,6 @@ class BowlingCalcTests(unittest.TestCase):
 
     def test_spare_strike_and_open_frame(self):
         self.assertEqual(60, calc_score([5, 10, 15, 2, 3, 5]))
+
+    def test_turkey_open_frame(self):
+        self.assertEqual(105, calc_score([15, 15, 15, 2, 3, 3]))

@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="34f5fb5c-3636-49ca-b939-aa17c0605223" name="Default" comment="">
+    <list default="true" id="34f5fb5c-3636-49ca-b939-aa17c0605223" name="Default" comment="Think">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bowling/bowling_test.py" afterPath="$PROJECT_DIR$/bowling/bowling_test.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bowling/bowling_v2.py" afterPath="$PROJECT_DIR$/bowling/bowling_v2.py" />
     </list>
     <ignored path="PyKata.iws" />
@@ -21,11 +22,11 @@
     <SUITE FILE_PATH="coverage/PyKata$Unittest_RomanNumeralParserTest_test_I_plus_I_returns_2.coverage" NAME="Unittest RomanNumeralParserTest.test_I_plus_I_returns_2 Coverage Results" MODIFIED="1463592695167" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/roman_calc" />
     <SUITE FILE_PATH="coverage/PyKata$Unittest_RomanNumeralParserTest_test_II_plus_V_returns_VII.coverage" NAME="Unittest RomanNumeralParserTest.test_II_plus_V_returns_VII Coverage Results" MODIFIED="1463597342812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/roman_calc" />
     <SUITE FILE_PATH="coverage/PyKata$Unittest_RomanNumeralParserTest_test_XXV_plus_XXIV_returns_XLIX.coverage" NAME="Unittest RomanNumeralParserTest.test_XXV_plus_XXIV_returns_XLIX Coverage Results" MODIFIED="1463772444951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/roman_calc" />
-    <SUITE FILE_PATH="coverage/PyKata$Unittests_in_BowlingCalcTests__1_.coverage" NAME="Unittests in BowlingCalcTests (1) Coverage Results" MODIFIED="1475874810853" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bowling" />
+    <SUITE FILE_PATH="coverage/PyKata$Unittests_in_BowlingCalcTests__1_.coverage" NAME="Unittests in BowlingCalcTests (1) Coverage Results" MODIFIED="1477087476018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bowling" />
     <SUITE FILE_PATH="coverage/PyKata$Unittest_RomanNumeralParserTest_test_IV_plus_V_returns_IX.coverage" NAME="Unittest RomanNumeralParserTest.test_IV_plus_V_returns_IX Coverage Results" MODIFIED="1463771649516" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/roman_calc" />
     <SUITE FILE_PATH="coverage/PyKata$Unittest_BowlingCalcTests_test_strike_open_frame.coverage" NAME="Unittest BowlingCalcTests.test_strike_open_frame Coverage Results" MODIFIED="1475873097892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bowling" />
     <SUITE FILE_PATH="coverage/PyKata$Unittest_RomanNumeralParserTest_test_DCCCLX_plus_C_returns_CMLX.coverage" NAME="Unittest RomanNumeralParserTest.test_DCCCLX_plus_C_returns_CMLX Coverage Results" MODIFIED="1463776782322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/roman_calc" />
-    <SUITE FILE_PATH="coverage/PyKata$Unittest_BowlingCalcTests_test_spare_strike_and_open_frame.coverage" NAME="Unittest BowlingCalcTests.test_spare_strike_and_open_frame Coverage Results" MODIFIED="1475876856046" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bowling" />
+    <SUITE FILE_PATH="coverage/PyKata$Unittest_BowlingCalcTests_test_spare_strike_and_open_frame.coverage" NAME="Unittest BowlingCalcTests.test_spare_strike_and_open_frame Coverage Results" MODIFIED="1477083655948" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bowling" />
     <SUITE FILE_PATH="coverage/PyKata$Unittest_RomanNumeralParserTest_test_LXXXIV_plus_XXXVII_returns_CXXI.coverage" NAME="Unittest RomanNumeralParserTest.test_LXXXIV_plus_XXXVII_returns_CXXI Coverage Results" MODIFIED="1463774799956" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/roman_calc" />
     <SUITE FILE_PATH="coverage/PyKata$Unittest_BowlingCalcTests_test_strike_strike_open_frame.coverage" NAME="Unittest BowlingCalcTests.test_strike_strike_open_frame Coverage Results" MODIFIED="1475876723857" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bowling" />
     <SUITE FILE_PATH="coverage/PyKata$Unittest_RomanNumeralParserTest_test_DCCCLIV_plus_CL_returns_MIV.coverage" NAME="Unittest RomanNumeralParserTest.test_DCCCLIV_plus_CL_returns_MIV Coverage Results" MODIFIED="1463776467865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/roman_calc" />
@@ -36,7 +37,7 @@
     <SUITE FILE_PATH="coverage/PyKata$Unittest_RomanNumeralParserTest_test_I_plus_I_returns_II.coverage" NAME="Unittest RomanNumeralParserTest.test_I_plus_I_returns_II Coverage Results" MODIFIED="1463595029091" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/roman_calc" />
     <SUITE FILE_PATH="coverage/PyKata$Unittest_BowlingCalcTests_test_spare_and_open_frame.coverage" NAME="Unittest BowlingCalcTests.test_spare_and_open_frame Coverage Results" MODIFIED="1475872358836" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bowling" />
     <SUITE FILE_PATH="coverage/PyKata$Unittest_RomanNumeralParserTest_test_IV_plus_V_returns_9.coverage" NAME="Unittest RomanNumeralParserTest.test_IV_plus_V_returns_9 Coverage Results" MODIFIED="1463594854936" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/roman_calc" />
-    <SUITE FILE_PATH="coverage/PyKata$Unittests_in_bowling_test.coverage" NAME="Unittests in bowling_test Coverage Results" MODIFIED="1475877235841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bowling" />
+    <SUITE FILE_PATH="coverage/PyKata$Unittests_in_bowling_test.coverage" NAME="Unittests in bowling_test Coverage Results" MODIFIED="1477082135124" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bowling" />
     <SUITE FILE_PATH="coverage/PyKata$Unittest_RomanNumeralParserTest_test_L_parses_as_fifty.coverage" NAME="Unittest RomanNumeralParserTest.test_L_parses_as_fifty Coverage Results" MODIFIED="1463776041608" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/roman_calc" />
     <SUITE FILE_PATH="coverage/PyKata$Unittest_RomanNumeralParserTest_test_VII_plus_V_returns_XII.coverage" NAME="Unittest RomanNumeralParserTest.test_VII_plus_V_returns_XII Coverage Results" MODIFIED="1463771256737" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/roman_calc" />
     <SUITE FILE_PATH="coverage/PyKata$Unittest_BowlingCalcTests_test_spare_spare_and_open_frame.coverage" NAME="Unittest BowlingCalcTests.test_spare_spare_and_open_frame Coverage Results" MODIFIED="1475872562492" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bowling" />
@@ -55,8 +56,8 @@
       <file leaf-file-name="bowling_test.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bowling/bowling_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="34" column="26" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
+            <state relative-caret-position="559">
+              <caret line="38" column="61" selection-start-line="38" selection-start-column="61" selection-end-line="38" selection-end-column="61" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -67,8 +68,8 @@
       <file leaf-file-name="bowling_v2.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bowling/bowling_v2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="572">
-              <caret line="31" column="32" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
+            <state relative-caret-position="513">
+              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -109,7 +110,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1441" />
+    <option name="x" value="1440" />
     <option name="y" value="-91" />
     <option name="width" value="1920" />
     <option name="height" value="1058" />
@@ -139,8 +140,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -175,14 +174,16 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ST" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Python tests.Unittest BowlingCalcTests.test_spare_strike_and_open_frame">
+  <component name="RunManager" selected="Python tests.Unittests in BowlingCalcTests (1)">
     <configuration default="false" name="Unittest BowlingCalcTests.test_strike_strike_open_frame" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -515,11 +516,11 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in bowling_test" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in BowlingCalcTests (1)" />
         <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest BowlingCalcTests.test_spare_strike_and_open_frame" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest BowlingCalcTests.test_strike_strike_open_frame" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest BowlingCalcTests.test_strike_spare_and_open_frame" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in BowlingCalcTests (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in bowling_test" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest BowlingCalcTests.test_strike_strike_open_frame" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittest BowlingCalcTests.test_strike_spare_and_open_frame" />
       </list>
     </recent_temporary>
   </component>
@@ -600,56 +601,63 @@
       <option name="project" value="LOCAL" />
       <updated>1475877390059</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Add idea about fifo queue in comment.">
+      <created>1475877442366</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1475877442366</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittest_BowlingCalcTests_test_spare_strike_and_open_frame - 2016.10.07 at 15h 27m 19s.xml">
+    <history-entry file="Unittest_BowlingCalcTests_test_spare_strike_and_open_frame - 2016.10.21 at 14h 45m 26s.xml">
       <configuration name="Unittest BowlingCalcTests.test_spare_strike_and_open_frame" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_BowlingCalcTests_test_spare_strike_and_open_frame - 2016.10.07 at 15h 41m 23s.xml">
+    <history-entry file="Unittest_BowlingCalcTests_test_spare_strike_and_open_frame - 2016.10.21 at 14h 46m 46s.xml">
       <configuration name="Unittest BowlingCalcTests.test_spare_strike_and_open_frame" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_BowlingCalcTests_test_spare_strike_and_open_frame - 2016.10.07 at 15h 52m 13s.xml">
+    <history-entry file="Unittest_BowlingCalcTests_test_spare_strike_and_open_frame - 2016.10.21 at 14h 50m 21s.xml">
       <configuration name="Unittest BowlingCalcTests.test_spare_strike_and_open_frame" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_BowlingCalcTests_test_strike_strike_open_frame - 2016.10.07 at 15h 45m 23s.xml">
-      <configuration name="Unittest BowlingCalcTests.test_strike_strike_open_frame" configurationId="tests" />
+    <history-entry file="Unittest_BowlingCalcTests_test_spare_strike_and_open_frame - 2016.10.21 at 14h 57m 52s.xml">
+      <configuration name="Unittest BowlingCalcTests.test_spare_strike_and_open_frame" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_BowlingCalcTests_test_strike_strike_open_frame - 2016.10.07 at 15h 47m 18s.xml">
-      <configuration name="Unittest BowlingCalcTests.test_strike_strike_open_frame" configurationId="tests" />
+    <history-entry file="Unittest_BowlingCalcTests_test_spare_strike_and_open_frame - 2016.10.21 at 14h 58m 11s.xml">
+      <configuration name="Unittest BowlingCalcTests.test_spare_strike_and_open_frame" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_bowling_test - 2016.10.07 at 15h 28m 05s.xml">
-      <configuration name="Unittests in bowling_test" configurationId="tests" />
+    <history-entry file="Unittest_BowlingCalcTests_test_spare_strike_and_open_frame - 2016.10.21 at 14h 58m 17s.xml">
+      <configuration name="Unittest BowlingCalcTests.test_spare_strike_and_open_frame" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_bowling_test - 2016.10.07 at 15h 43m 31s.xml">
-      <configuration name="Unittests in bowling_test" configurationId="tests" />
+    <history-entry file="Unittest_BowlingCalcTests_test_spare_strike_and_open_frame - 2016.10.21 at 15h 55m 24s.xml">
+      <configuration name="Unittest BowlingCalcTests.test_spare_strike_and_open_frame" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_bowling_test - 2016.10.07 at 15h 44m 12s.xml">
-      <configuration name="Unittests in bowling_test" configurationId="tests" />
+    <history-entry file="Unittests_in_BowlingCalcTests_(1) - 2016.10.21 at 15h 54m 59s.xml">
+      <configuration name="Unittests in BowlingCalcTests (1)" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_bowling_test - 2016.10.07 at 15h 47m 23s.xml">
-      <configuration name="Unittests in bowling_test" configurationId="tests" />
+    <history-entry file="Unittests_in_BowlingCalcTests_(1) - 2016.10.21 at 15h 55m 36s.xml">
+      <configuration name="Unittests in BowlingCalcTests (1)" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_bowling_test - 2016.10.07 at 15h 53m 55s.xml">
-      <configuration name="Unittests in bowling_test" configurationId="tests" />
+    <history-entry file="Unittests_in_BowlingCalcTests_(1) - 2016.10.21 at 16h 04m 36s.xml">
+      <configuration name="Unittests in BowlingCalcTests (1)" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1441" y="-91" width="1920" height="1058" extended-state="6" />
+    <frame x="1440" y="-91" width="1920" height="1058" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1970181" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20127796" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32446808" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32446808" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35106382" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35106382" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -679,7 +687,8 @@
     <MESSAGE value="Continue refactor." />
     <MESSAGE value="Restart bowling kata." />
     <MESSAGE value="Use states on carryover instead if integers." />
-    <option name="LAST_COMMIT_MESSAGE" value="Use states on carryover instead if integers." />
+    <MESSAGE value="Add idea about fifo queue in comment." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add idea about fifo queue in comment." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -702,14 +711,57 @@
         <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/bowling/bowling_v2.py</url>
           <line>5</line>
-          <option name="timeStamp" value="9" />
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="10" />
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+      <option name="time" value="13" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/bowling/bowling_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="34" column="26" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bowling/bowling_v2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bowling/bowling_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="34" column="26" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bowling/bowling_v2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/bowling/bowling_test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -810,8 +862,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bowling/bowling_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="34" column="26" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
+        <state relative-caret-position="559">
+          <caret line="38" column="61" selection-start-line="38" selection-start-column="61" selection-end-line="38" selection-end-column="61" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
@@ -820,8 +872,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bowling/bowling_v2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="31" column="32" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
+        <state relative-caret-position="513">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding />
         </state>
       </provider>
