@@ -7,3 +7,11 @@ def get_next_number(directions):
         current = MAPPING[current][item]
 
     return current
+
+
+def calculate_code(directions):
+    code = []
+    for direction in directions:
+        code.append(get_next_number(direction))
+
+    return code
