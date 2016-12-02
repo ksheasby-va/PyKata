@@ -1,5 +1,6 @@
 def game_of_life(width, height, grid):
     """ https://github.com/garora/TDD-Katas#game-of-life- """
+
     return make_grid_from_list(width, grid)
 
 
@@ -25,15 +26,23 @@ def make_grid_from_list(width, grid):
 
 def get_neighbours(position, width, grid):
     list_index = position - 1
+    height = len(grid) / width
     neighbours = []
-    if position > width:
+    top_row = list_index < width
+    bottom_row = (position / width + 1) == height
+    left_side = (position % width) == 1
+    right_side = (position % width) == 0
+    if not top_row:
         neighbours.append(grid[list_index - width - 1])
         neighbours.append(grid[list_index - width])
         neighbours.append(grid[list_index - width + 1])
+    if not left_side:
         neighbours.append(grid[list_index - 1])
+    if not left_side and not bottom_row:
         neighbours.append(grid[list_index + width - 1])
     neighbours.append(grid[list_index + 1])
-    neighbours.append(grid[list_index + width])
-    neighbours.append(grid[list_index + width + 1])
+    if not bottom_row:
+        neighbours.append(grid[list_index + width])
+        neighbours.append(grid[list_index + width + 1])
 
     return neighbours
