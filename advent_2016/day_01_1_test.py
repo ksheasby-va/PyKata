@@ -15,6 +15,7 @@ class CalculateDistanceTests(unittest.TestCase):
 
         self.assertEqual(3, result)
 
+
 class RunWithInput(unittest.TestCase):
 
     def test_run_with_input(self):
