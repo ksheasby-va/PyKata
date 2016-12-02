@@ -29,20 +29,24 @@ def get_neighbours(position, width, grid):
     height = len(grid) / width
     neighbours = []
     top_row = list_index < width
-    bottom_row = (position / width + 1) == height
+    bottom_row = ((position + 1) / (width + 1)) == height
     left_side = (position % width) == 1
     right_side = (position % width) == 0
-    if not top_row:
+    if not top_row and not left_side:
         neighbours.append(grid[list_index - width - 1])
+    if not top_row:
         neighbours.append(grid[list_index - width])
+    if not top_row and not right_side:
         neighbours.append(grid[list_index - width + 1])
     if not left_side:
         neighbours.append(grid[list_index - 1])
     if not left_side and not bottom_row:
         neighbours.append(grid[list_index + width - 1])
-    neighbours.append(grid[list_index + 1])
+    if not right_side:
+        neighbours.append(grid[list_index + 1])
     if not bottom_row:
         neighbours.append(grid[list_index + width])
+    if not bottom_row and not right_side:
         neighbours.append(grid[list_index + width + 1])
 
     return neighbours

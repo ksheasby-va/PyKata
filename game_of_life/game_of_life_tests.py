@@ -33,3 +33,13 @@ class GetNeighboursTests(unittest.TestCase):
         expected = [10, 11, 12, 14, 16]
         neighbours = get_neighbours(15, 4, [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16])
         self.assertItemsEqual(expected, neighbours)
+
+    def test_check_for_neighbours_for_9_in_4_by_4_grid(self):
+        expected = [5, 6, 10, 13, 14]
+        neighbours = get_neighbours(9, 4, [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16])
+        self.assertItemsEqual(expected, neighbours)
+
+    def test_check_for_neighbours_for_12_in_4_by_4_grid(self):
+        expected = [7, 8, 11, 15, 16]
+        neighbours = get_neighbours(12, 4, [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16])
+        self.assertItemsEqual(expected, neighbours)
