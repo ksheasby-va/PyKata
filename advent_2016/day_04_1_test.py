@@ -40,3 +40,10 @@ class GetTopFiveMostFrequentLettersTests(unittest.TestCase):
         expected = 'faceb'
         result = get_five_most_frequent_letters(input_dict)
         self.assertEqual(expected, result)
+
+    def test_proper_letters_in_order_for_checksum(self):
+        parts = separate_parts('hqcfqwydw-fbqijys-whqii-huiuqhsx-660[qhiwf]')
+        counts = count_letters(parts[0])
+        result = get_five_most_frequent_letters(counts)
+        self.assertEqual('qhiwf', result)
+
