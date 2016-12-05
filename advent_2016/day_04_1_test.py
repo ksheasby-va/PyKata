@@ -1,6 +1,7 @@
 import unittest
 
-from day_04_1 import separate_parts, count_letters, get_five_most_frequent_letters
+from day_04_1 import separate_parts, count_letters, get_five_most_frequent_letters, is_real_room
+from day_04_input import INPUT
 
 
 class SeparatePartsTests(unittest.TestCase):
@@ -47,3 +48,26 @@ class GetTopFiveMostFrequentLettersTests(unittest.TestCase):
         result = get_five_most_frequent_letters(counts)
         self.assertEqual('qhiwf', result)
 
+
+class IsRealRoomTests(unittest.TestCase):
+
+    def test_returns_True_and_123(self):
+        input_string = 'aaaa-ddd-bbeeeeeeee-cccffff-123[eafcd]'
+        result = is_real_room(input_string)
+        self.assertTupleEqual((True, 123), result)
+
+    def test_returns_False_and_123(self):
+        input_string = 'aaaa-ddd-bbeeeeeeee-cccffff-123[eabcd]'
+        result = is_real_room(input_string)
+        self.assertTupleEqual((False, 123), result)
+
+
+class RunWithInput(unittest.TestCase):
+
+    def test_run_with_input(self):
+        total = 0
+        for room in INPUT.splitlines():
+            result = is_real_room(room)
+            if result[0]:
+                total += result[1]
+        print total

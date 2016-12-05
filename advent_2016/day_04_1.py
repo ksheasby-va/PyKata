@@ -33,3 +33,13 @@ def get_five_most_frequent_letters(input_dict):
     tuple_list = input_dict.items()
     tuple_list.sort(key=lambda tup: (-tup[1], tup[0]))
     return ''.join([i[0] for i in tuple_list[0:5]])
+
+
+def is_real_room(input_string):
+    part_tuple = separate_parts(input_string)
+    letter_dict = count_letters(part_tuple[0])
+    checksum = get_five_most_frequent_letters(letter_dict)
+    if checksum == part_tuple[2].strip('[]'):
+        return True, int(part_tuple[1])
+    else:
+        return False, int(part_tuple[1])
