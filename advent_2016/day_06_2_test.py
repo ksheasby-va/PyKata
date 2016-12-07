@@ -1,6 +1,6 @@
 import unittest
 
-from day_06_1 import get_most_common_letter_in_column, get_most_common_letters
+from day_06_2 import get_least_common_letter_in_column, get_least_common_letters
 from day_06_input import INPUT
 
 
@@ -10,23 +10,23 @@ class GetMostCommonInColumnTests(unittest.TestCase):
         input_string = '''e
         f
         e'''
-        expected = 'e'
-        result = get_most_common_letter_in_column(input_string)
+        expected = 'f'
+        result = get_least_common_letter_in_column(input_string)
         self.assertEqual(expected, result)
 
 
-class GetMostCommonLettersTests(unittest.TestCase):
+class GetLeastCommonLettersTests(unittest.TestCase):
 
-    def test_most_common_letters_in_two_columns_are_a_b(self):
+    def test_least_common_letters_in_two_columns_are_c_c(self):
         input_string = '''ab
         cb
         ac
         ab'''
-        expected = 'ab'
-        result = get_most_common_letters(input_string)
+        expected = 'cc'
+        result = get_least_common_letters(input_string)
         self.assertEqual(expected, result)
 
-    def test_most_common_letters_are_easter(self):
+    def test_least_common_letters_are_advent(self):
         input_string = '''eedadn
             drvtee
             eandsr
@@ -43,12 +43,12 @@ class GetMostCommonLettersTests(unittest.TestCase):
             vrdear
             dvrsen
             enarar'''
-        expected = 'easter'
-        result = get_most_common_letters(input_string)
+        expected = 'advent'
+        result = get_least_common_letters(input_string)
         self.assertEqual(expected, result)
 
 
 class RunWithInput(unittest.TestCase):
 
     def test_run_with_input(self):
-        print get_most_common_letters(INPUT)
+        print get_least_common_letters(INPUT)
