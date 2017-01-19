@@ -18,7 +18,6 @@ import { HeroService } from './hero.service';
     </ul>
     <my-hero-detail [hero]="selectedHero"></my-hero-detail>
   `,
-  providers: [HeroService],
   styles: [`
     .selected {
       background-color: #CFD8DC !important;
@@ -67,13 +66,15 @@ import { HeroService } from './hero.service';
       margin-right: .8em;
       border-radius: 4px 0 0 4px;
     }
-  `]
+  `],
+  providers: [HeroService]
 })
 
 export class AppComponent implements OnInit {
   title = 'Tour of Heroes';
   heroes: Hero[];
   selectedHero: Hero;
+
   constructor(private heroService: HeroService) { }
 
   ngOnInit(): void {
@@ -85,6 +86,6 @@ export class AppComponent implements OnInit {
   }
 
   getHeroes(): void {
-    this.heroes = this.heroService.getHeroes();
+    this.heroService.getHeroes().then(heroes => this.heroes = heroes);
   }
 }
