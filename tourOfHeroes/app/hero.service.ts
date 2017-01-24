@@ -1,6 +1,6 @@
 import 'rxjs/add/operator/toPromise';
 import { Injectable } from '@angular/core';
-import {Http} from '@angular/http';
+import {Http, Headers} from '@angular/http';
 
 import { Hero } from './hero';
 
@@ -8,6 +8,7 @@ import { Hero } from './hero';
 @Injectable()
 export class HeroService {
   private heroesUrl = 'api/heroes';
+  private headers = new Headers({'Content-Type': 'application/json'});
 
   private handleError(error: any): Promise<any> {
     console.error('An error occured', error);
@@ -29,6 +30,15 @@ export class HeroService {
       .toPromise()
       .then(response => response.json().data as Hero)
       .catch(this.handleError);
+  }
+
+  update(hero: Hero): Promise<Hero> {
+    const url = `${this.heroesUrl}/${hero.id}`;
+    return this.http
+      .put(url, JSON.stringify(hero), {headers: this.headers})
+      .toPromise()
+      .then(() => hero)
+      .catch(this.handleError)
   }
 
   // getHeroesSlowly(): Promise<Hero[]> {
