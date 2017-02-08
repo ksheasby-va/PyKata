@@ -9,16 +9,17 @@ import { PokemonService } from './pokemon.service';
   templateUrl: 'pokemon.component.html',
 })
 
-export class PokemonComponent implements OnInit {
+export class PokemonComponent {
   @Input()
   pokemon: Pokemon;
+  number: number;
 
   constructor(
     private pokemonService: PokemonService,
   ) { }
 
-  ngOnInit(): void {
-    this.pokemonService.getPokemon(19)
+  lookupPokemon(): void {
+    this.pokemonService.getPokemon(this.number)
       .then(pokemon => this.pokemon = pokemon);
   }
 }

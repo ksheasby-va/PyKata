@@ -1,3 +1,10 @@
+<div>
+  <label>Lookup: </label>
+  <input [(ngModel)]="number" placeholder="number"/>
+</div>
+<div>
+  <button (click)="lookupPokemon()">Search!</button>
+</div>
 <div *ngIf="pokemon">
   <h2>I choose you {{ pokemon.name }}!!!</h2>
   <p>{{ pokemon.id }}</p>
