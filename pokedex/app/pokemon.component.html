@@ -7,5 +7,5 @@
 </div>
 <div *ngIf="pokemon">
   <h2>I choose you {{ pokemon.name }}!!!</h2>
-  <p>{{ pokemon.id }}</p>
+  <a routerLink="/details/{{ pokemon.id }}">Details</a>
 </div>

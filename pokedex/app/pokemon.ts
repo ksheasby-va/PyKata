@@ -1,5 +1,7 @@
 export class Pokemon {
   id: number;
   name: string;
-  // evolutions: number[];
+  weight: number;
+  height: number;
+  types: string[];
 }
