@@ -6,6 +6,6 @@
   <button (click)="lookupPokemon()">Search!</button>
 </div>
 <div *ngIf="pokemon">
-  <h2>I choose you {{ pokemon.name }}!!!</h2>
+  <h2>I choose you {{ pokemon.name | uppercaseFirstLetters }}!!!</h2>
   <a routerLink="/details/{{ pokemon.id }}">Details</a>
 </div>
