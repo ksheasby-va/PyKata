@@ -24,6 +24,17 @@ export class PokemonDetailComponent implements OnInit {
     this.route.params
       .switchMap((params: Params) =>
         this.pokemonService.getPokemon(+params['id']))
-      .subscribe(pokemon => this.pokemon = pokemon);
+      .subscribe(function(pokemon: Pokemon) {
+        this.pokemon = pokemon;
+        this.pokemon.types = this.getTypes(pokemon);
+      }.bind(this));
+  }
+
+  getTypes(pokemon: any): string[] {
+    let types: string[] = [];
+    for (let type of pokemon.types) {
+      types.push(type.type.name);
+    }
+    return types;
   }
 }

@@ -3,9 +3,9 @@
   <input [(ngModel)]="number" placeholder="number"/>
 </div>
 <div>
-  <button (click)="lookupPokemon()">Search!</button>
+  <button class="nav-button" (click)="lookupPokemon()">Search!</button>
 </div>
 <div *ngIf="pokemon">
   <h2>I choose you {{ pokemon.name | uppercaseFirstLetters }}!!!</h2>
-  <a routerLink="/details/{{ pokemon.id }}">Details</a>
+  <button class="nav-button" routerLink="/details/{{ pokemon.id }}">Details</button>
 </div>

@@ -1,15 +1,18 @@
 <div *ngIf="pokemon">
-  <h2>{{ pokemon.name }} details</h2>
+  <h2>{{ pokemon.name | uppercaseFirstLetters }} details</h2>
   <div>
-    <label>id: </label>{{ pokemon.id }}
+    <label>Number: </label>{{ pokemon.id }}
   </div>
   <div>
-    <label>weight: </label>{{ pokemon.weight }}
+    <label>Weight: </label>{{ pokemon.weight }}
   </div>
   <div>
-    <label>height: </label>{{ pokemon.height }}
+    <label>Height: </label>{{ pokemon.height }}
   </div>
   <div>
-    <a routerLink="/home" routerLinkActive="active">Home</a>
+    <label>Types: </label><span *ngFor="let type of pokemon.types">{{ type | uppercaseFirstLetters }} </span>
+  </div>
+  <div>
+    <button class="nav-button" routerLink="/home" routerLinkActive="active">Home</button>
   </div>
 </div>
