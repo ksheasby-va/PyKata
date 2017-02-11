@@ -13,6 +13,9 @@
     <label>Types: </label><span *ngFor="let type of pokemon.types">{{ type | uppercaseFirstLetters }} </span>
   </div>
   <div>
+    <label><a routerLink="/details/{{ pokemon.id }}/moves">Moves: </a></label><span *ngFor="let move of pokemon.moves">{{ move.name | uppercaseFirstLetters }}, </span>
+  </div>
+  <div>
     <button class="nav-button" routerLink="/home" routerLinkActive="active">Home</button>
   </div>
 </div>

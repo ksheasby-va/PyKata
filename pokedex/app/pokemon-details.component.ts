@@ -2,7 +2,7 @@ import 'rxjs/add/operator/switchMap'
 import { Component, OnInit, Input } from '@angular/core';
 import { ActivatedRoute, Params } from '@angular/router';
 
-import { Pokemon } from './pokemon';
+import { Pokemon, Move, MoveMethod } from './pokemon';
 import { PokemonService } from './pokemon.service';
 
 @Component({
@@ -27,6 +27,7 @@ export class PokemonDetailComponent implements OnInit {
       .subscribe(function(pokemon: Pokemon) {
         this.pokemon = pokemon;
         this.pokemon.types = this.getTypes(pokemon);
+        this.pokemon.moves = this.getMoves(pokemon);
       }.bind(this));
   }
 
@@ -36,5 +37,27 @@ export class PokemonDetailComponent implements OnInit {
       types.push(type.type.name);
     }
     return types;
+  }
+
+  getMoves(pokemon: any): Move[] {
+    let moves: Move[] = [];
+    for (let move of pokemon.moves) {
+      let moveMethods = this.getMoveMethods(move);
+      if (moveMethods.length > 0) {
+        moves.push(new Move(move.move.name, moveMethods));
+      }
+    }
+    return moves;
+  }
+
+  getMoveMethods(move: any): MoveMethod[] {
+    let moveMethods: MoveMethod[] = [];
+    for (let method of move.version_group_details) {
+      if (method.move_learn_method.name === 'level-up') {
+        moveMethods.push(new MoveMethod(method.move_learn_method.name, method.version_group.name,
+          method.level_learned_at));
+      }
+    }
+    return moveMethods;
   }
 }
