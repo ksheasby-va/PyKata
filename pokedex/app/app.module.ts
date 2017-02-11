@@ -9,11 +9,13 @@ import { PokemonService } from './pokemon.service';
 import { AppRoutingModule } from './app-routing.module';
 import { PokemonDetailComponent } from './pokemon-details.component';
 import { UppercaseFirstLettersPipe } from './uppercase-first-letter.pipe';
+import { DataCleaningService } from './data-cleaning.service';
+import { MoveDetailComponent } from './move-details.component';
 
 @NgModule({
   imports:      [ BrowserModule, HttpModule, FormsModule, AppRoutingModule ],
-  declarations: [ AppComponent, PokemonComponent, PokemonDetailComponent, UppercaseFirstLettersPipe ],
-  providers: [ PokemonService ],
+  declarations: [ AppComponent, PokemonComponent, PokemonDetailComponent, MoveDetailComponent, UppercaseFirstLettersPipe ],
+  providers: [ PokemonService, DataCleaningService ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
