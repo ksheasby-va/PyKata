@@ -10,10 +10,12 @@ export class Pokemon {
 export class Move {
   name: string;
   methods: MoveMethod[];
+  url: string;
 
-  constructor(name: string, methods: MoveMethod[]) {
+  constructor(name: string, methods: MoveMethod[], url: string) {
     this.name = name;
     this.methods = methods;
+    this.url = url;
   }
 }
 

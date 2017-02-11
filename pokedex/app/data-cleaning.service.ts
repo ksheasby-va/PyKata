@@ -18,7 +18,7 @@ export class DataCleaningService {
     for (let move of pokemon.moves) {
       let moveMethods = this.getMoveMethods(move);
       if (moveMethods.length > 0) {
-        moves.push(new Move(move.move.name, moveMethods));
+        moves.push(new Move(move.move.name, moveMethods, move.move.url));
       }
     }
     return moves;

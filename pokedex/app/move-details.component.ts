@@ -1,8 +1,9 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, Input, OnInit, ViewChild } from '@angular/core';
 import { PokemonService } from './pokemon.service';
 import { ActivatedRoute, Params } from '@angular/router';
 import { Pokemon } from './pokemon';
 import { DataCleaningService } from './data-cleaning.service';
+import { ModalComponent } from 'ng2-bs3-modal/components/modal';
 
 @Component({
   moduleId: module.id,
@@ -13,6 +14,11 @@ import { DataCleaningService } from './data-cleaning.service';
 export class MoveDetailComponent implements OnInit {
   @Input()
   pokemon: Pokemon;
+
+  @ViewChild('modal')
+  modal: ModalComponent;
+  // items:
+
 
   constructor(private pokemonService: PokemonService,
               private dataCleaningService: DataCleaningService,

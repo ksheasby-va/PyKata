@@ -2,7 +2,7 @@
   <h2>{{ pokemon.name | uppercaseFirstLetters }}'s moves</h2>
   <div>
     <ul>
-      <li *ngFor="let move of pokemon.moves">{{ move.name | uppercaseFirstLetters }}</li>
+      <li *ngFor="let move of pokemon.moves"><a href="{{ move.url }}">{{ move.name | uppercaseFirstLetters }}</a></li>
     </ul>
   </div>
   <button class="nav-button" routerLink="/details/{{ pokemon.id }}" routerLinkActive="active">Details</button>
