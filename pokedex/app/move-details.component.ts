@@ -17,7 +17,7 @@ export class MoveDetailComponent implements OnInit {
 
   @ViewChild('modal')
   modal: ModalComponent;
-  // items:
+  // items: string[] = [];
 
 
   constructor(private pokemonService: PokemonService,
@@ -32,5 +32,9 @@ export class MoveDetailComponent implements OnInit {
         this.pokemon = pokemon;
         this.pokemon.moves = this.dataCleaningService.getMoves(pokemon);
       }.bind(this));
+  }
+
+  open() {
+    this.modal.open();
   }
 }
