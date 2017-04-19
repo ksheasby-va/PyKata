@@ -4,3 +4,6 @@
 node_modules/
 env/
 tourenv/
+bookenv/
+app/*.js
+app/*.js.map
