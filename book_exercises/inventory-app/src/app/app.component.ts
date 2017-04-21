@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, EventEmitter } from '@angular/core';
 
 import { Product } from './product.model'
 
@@ -34,5 +34,9 @@ export class AppComponent {
         328.99
       )
     ];
+  }
+
+  productWasSelected(product: Product): void {
+    console.log('Product clicked: ', product);
   }
 }
