@@ -6,8 +6,6 @@ import { Product } from '../product.model';
   templateUrl: './product-row.component.html',
 })
 export class ProductRowComponent {
-
   @Input() product: Product;
-  @HostBinding('attr.class') cssClass = 'item';  
-
+  @HostBinding('attr.class') cssClass = 'item';
 }

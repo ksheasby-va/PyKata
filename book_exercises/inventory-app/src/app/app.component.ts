@@ -1,11 +1,10 @@
-import { Component, EventEmitter } from '@angular/core';
+import { Component } from '@angular/core';
 
-import { Product } from './product.model'
+import { Product } from './product.model';
 
 @Component({
-  selector: 'inventoty-app-root',
+  selector: 'inventory-app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
 })
 export class AppComponent {
   products: Product[];

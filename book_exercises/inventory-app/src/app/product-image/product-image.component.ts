@@ -1,10 +1,10 @@
 import { Component, Input, HostBinding } from '@angular/core';
-import { Product } from "app/product.model";
+import { Product } from 'app/product.model';
 
 @Component({
   selector: 'product-image',
   template: `
-  <img class="product-image" [src]="product.imageUrl"
+  <img class="product-image" [src]="product.imageUrl">
   `
 })
 export class ProductImageComponent {
