@@ -7,3 +7,4 @@ tourenv/
 bookenv/
 app/*.js
 app/*.js.map
+example-code/
