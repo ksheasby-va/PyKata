@@ -33,4 +33,4 @@ class GetLetterFromHashResultTests(unittest.TestCase):
 class RunWithInput(unittest.TestCase):
 
     def test_run_with_input(self):
-        print get_password_from_hash_results('cxdnnyjw')
+        print get_password_from_hash_results('ugkcyxxp')

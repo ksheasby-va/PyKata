@@ -18,3 +18,7 @@ def get_password_from_hash_results(input_string):
         password += hex_digest[5]
 
     return password
+
+
+if __name__ == '__main__':
+    print get_password_from_hash_results('ugkcyxxp')

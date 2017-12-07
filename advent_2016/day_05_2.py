@@ -10,3 +10,7 @@ def calculate_password_dict(input_string):
             digits[int(hex_digest[5])] = hex_digest[6]
 
     return digits
+
+
+if __name__ == '__main__':
+    print calculate_password_dict('ugkcyxxp')
