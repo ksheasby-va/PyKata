@@ -1,4 +1,10 @@
 def calculate_frequency(digits):
+    numbers = string_to_numbers(digits)
+    print digits
+    return sum(numbers)
+
+
+def string_to_numbers(digits):
     digits = digits.split(',')
     numbers = []
     for digit in digits:
@@ -8,8 +14,7 @@ def calculate_frequency(digits):
         else:
             number = int(digit[1:])
         numbers.append(number)
-    print digits
-    return sum(numbers)
+    return numbers
 
 
 if __name__ == '__main__':

@@ -1,6 +1,6 @@
 import unittest
 
-from day_01.part_1 import calculate_frequency
+from part_1 import calculate_frequency
 
 
 class DayOneAdditionTests(unittest.TestCase):
