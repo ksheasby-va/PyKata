@@ -4,39 +4,47 @@ import copy
 def add_square_to_grid(coords, grid):
     coord_pieces = [int(c) for c in coords.split()[2].replace(":", "").split(",")]
     sizes = [int(c) for c in coords.split()[3].split("x")]
+    overlapped = []
     number = coords.split()[0][1:]
     for i in range(sizes[0]):
         for j in range(sizes[1]):
             curr = grid[coord_pieces[1] + j][coord_pieces[0] + i]
-            if curr != ".":
+            if curr not in [".", "X"]:
+                overlapped.append(int(number))
+                overlapped.append(int(curr))
                 grid[coord_pieces[1] + j][coord_pieces[0] + i] = "X"
             else:
                 grid[coord_pieces[1] + j][coord_pieces[0] + i] = number
-    return grid
+    return grid, overlapped
 
 
 def make_grid(input, size):
     line = ["."] * size
     grid = []
+    repeats = []
     for i in range(size):
         grid.append(copy.deepcopy(line))
     for i in input.splitlines():
-        grid = add_square_to_grid(i, grid)
-    return grid
+        grid, overlapped = add_square_to_grid(i, grid)
+        repeats.extend(overlapped)
+    return grid, repeats
 
 
-def count_overlap(input, size):
-    grid = make_grid(input, size)
-    count = 0
-    for row in grid:
-        for i in row:
-            if i == "X":
-                count += 1
-    return count
+def find_missing_number(numbers):
+    l = sorted(list(set(numbers)))
+    for i, v in enumerate(l):
+        if i + 1 != v:
+            return i + 1
+    return len(l) + 1
+
+
+def find_unoverlapped(input, size):
+    grid, overlapped = make_grid(input, size)
+    return find_missing_number(overlapped)
 
 
 if __name__ == "__main__":
-    print count_overlap("""#1 @ 37,526: 17x23
+    print find_unoverlapped("""#1 @ 37,526: 17x23
 #2 @ 75,649: 23x11
 #3 @ 138,364: 29x12
 #4 @ 370,260: 20x17
