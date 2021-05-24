@@ -21,7 +21,7 @@ nodeenv==1.1.2
 numpy==1.8.0rc1
 pbr==2.1.0
 psutil==4.3.0
-py==1.4.33
+py==1.10.0
 py2app==0.7.3
 pycrypto==2.6.1
 pylint==1.6.4
